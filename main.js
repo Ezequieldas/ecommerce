@@ -73,32 +73,32 @@ const productList = [];
 productList.push({
   name: 'Bike',
   price: 120,
-  image: 'https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg'
+  image: 'https://cdn.pixabay.com/photo/2016/09/09/22/40/bike-1658214_960_720.jpg'
 })
 productList.push({
   name: 'Computer',
   price: 1200,
-  image: 'https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg'
+  image: 'https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_960_720.jpg'
 })
 productList.push({
   name: 'TV',
   price: 2300,
-  image: 'https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg'
+  image: 'https://cdn.pixabay.com/photo/2020/04/08/15/50/tv-5017870_960_720.jpg'
 })
 productList.push({
   name: 'Pants',
   price: 120,
-  image: 'https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg'
+  image: 'https://cdn.pixabay.com/photo/2016/11/29/10/21/adult-1868988_960_720.jpg'
 })
 productList.push({
   name: 'Shirts',
-  price: 120,
-  image: 'https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg'
+  price: 20,
+  image: 'https://cdn.pixabay.com/photo/2020/03/31/16/18/rabbit-4988412_960_720.jpg'
 })
 productList.push({
-  name: 'Bike',
+  name: 'Hat',
   price: 120,
-  image: 'https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg'
+  image: 'https://cdn.pixabay.com/photo/2017/05/13/12/40/fashion-2309519_960_720.jpg'
 })
 productList.push({
   name: 'Motorcycle',
@@ -107,19 +107,30 @@ productList.push({
 })
 productList.push({
   name: 'Fridge',
-  price: 120,
-  image: 'https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg'
+  price: 520,
+  image: 'https://cdn.pixabay.com/photo/2018/11/04/13/29/hospitality-3793946_960_720.jpg'
 })
 productList.push({
   name: 'Toy',
-  price: 120,
-  image: 'https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg'
+  price: 11,
+  image: 'https://cdn.pixabay.com/photo/2018/05/31/15/06/see-no-evil-3444212_960_720.jpg'
 })
 productList.push({
-  name: 'Bike',
-  price: 120,
-  image: 'https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg'
+  name: 'Flowers',
+  price: 10,
+  image: 'https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_960_720.jpg'
 })
+productList.push({
+  name: 'Guitar',
+  price: 300,
+  image: 'https://cdn.pixabay.com/photo/2016/03/26/22/36/man-1281642_960_720.jpg'
+})
+productList.push({
+  name: 'Piano',
+  price: 1500,
+  image: 'https://cdn.pixabay.com/photo/2018/06/29/01/47/piano-3505109_960_720.jpg'
+})
+
 
 function renderProducts(arr) {
   for (product of arr) {
